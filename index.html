@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>CSS Selectors</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Pattern</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>*</td>
+                    <td>Universal selector</td>
+                    <td>Matches any element</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>Type Selector</td>
+                    <td>Matches any X element (i.e. an element of type X)</td>
+                </tr>
+                <tr>
+                    <td>.X</td>
+                    <td>Class Selector</td>
+                    <td>Selects element with id="X"</td>
+                </tr>
+                <tr>
+                    <td>X.Y</td>
+                    <td>Chaining Selector</td>
+                    <td>Select X elements with the Y class</td>
+                </tr>
+                <tr>
+                    <td>#X</td>
+                    <td>ID Selector</td>
+                    <td>Selects all elements with class="X"</td>
+                </tr>
+                <tr>
+                    <td>X Y</td>
+                    <td>Descendant Selector</td>
+                    <td>Matches any Y element that is a descendant of an X element</td>
+                </tr>
+                <tr>
+                    <td>X > Y</td>
+                    <td>Child Selector</td>
+                    <td>Matches any Y element that is a child of an X element</td>
+                </tr>
+                <tr>
+                    <td>X:first-child</td>
+                    <td>The :first-child pseudo-class</td>
+                    <td>Matches element X when X is the first child of its parent</td>
+                </tr>
+                <tr>
+                    <td>X:link<br>X:visited</td>
+                    <td>The link pseudo-classes</td>
+                    <td>Matches element X if X is the source anchor of a hyperlink of which the target is not yet visited (:link) or already visited (:visited)</td>
+                </tr>
+                <tr>
+                    <td>X:active<br>X:hover<br>X:focus</td>
+                    <td>The dynamic pseudo-classes</td>
+                    <td>Matches X during certain user actions</td>
+                </tr>
+                <tr>
+                    <td>X:lang(A)</td>
+                    <td>The :lang() pseudo-class</td>
+                    <td>Matches element of type X if it is in (human) language A (the document language specifies how language is determined)</td>
+                </tr>
+                <tr>
+                    <td>X + Y</td>
+                    <td>Adjacent selectors</td>
+                    <td>Matches any Y element immediately preceded by a sibling element X</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
